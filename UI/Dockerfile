@@ -1,5 +1,5 @@
 FROM nginx
 
-COPY index.html /usr/nginx/html
+COPY index.html /etc/nginx/index.html
 
 
