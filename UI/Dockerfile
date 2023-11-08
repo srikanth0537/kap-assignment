@@ -1,7 +1,7 @@
 FROM nginx
 
-COPY index.html /etc/nginx/index.html
+COPY index.html /usr/share/nginx/html
 
-RUN apt-get update && apt-get install nginx -y
+
 
 
