@@ -13,5 +13,5 @@ RUN pip install -r requirements.txt --no-cache-dir
 COPY . /flask-app/
 
 
-CMD ["python", "app.py"]
+CMD ["python", "app1.py"]
 
